@@ -80,7 +80,6 @@
 - (IBAction)addImage:(id)sender
 {
     NSLog(@"%@",sender);
-    NSLog(@"%@",sender);
     [self.segmentedControl setImage:[UIImage imageNamed:@"clock"] forSegmentAtIndex:self.segmentedControl.selectedSegmentIndex];
 }
 
